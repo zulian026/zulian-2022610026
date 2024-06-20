@@ -1,0 +1,56 @@
+.bg-body {
+    background-color:rgb(30, 41, 59)!important;
+    font-family:-apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;    
+    line-height: 24px; 
+}
+
+.me-auto {
+    gap: 20px;
+}
+
+.bi-house,
+.bi-person-rolodex,
+.bi-cloud-download {
+    margin-right: 10px;
+    margin-bottom: 2px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.bi-house:hover,
+.bi-person-rolodex:hover,
+.bi-cloud-download:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.bi-search{
+    color: white;
+    transform: scale(1.2);
+}
+
+.nav-item {
+   
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    color: white;
+}
+
+.nav-item:hover {
+    color: white !important;
+    transform: scale(1.05);
+    background-color: rgba(231, 231, 231, 0.349);
+    border-radius: 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
