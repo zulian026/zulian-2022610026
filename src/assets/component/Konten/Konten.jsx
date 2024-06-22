@@ -1,5 +1,6 @@
 import React from 'react';
 import './Konten.css';
+import contoh from '../image/img_css.jpeg'
 
 function Konten() {
   return (
@@ -35,7 +36,7 @@ function Konten() {
         <div className="box-1">
           <h1>Belajar CSS 1: Pengenalan CSS</h1>
           <hr/>
-          <img src="" alt="Gambar Tutorial CSS" className="gambar-tutorial" />
+          <img src={contoh} alt="Gambar Tutorial CSS" className="gambar-tutorial" />
           <p><span>Selamat datang di tutorial CSS!</span> Di sini kita akan membahas dasar-dasar CSS yang perlu diketahui oleh setiap pemula. CSS, atau Cascading Style Sheets, adalah bahasa yang digunakan untuk mengatur tampilan dan format dokumen HTML. Dengan CSS, Anda dapat mengubah warna teks, mengatur tata letak halaman, menambahkan margin dan padding, serta banyak lagi. Mari kita mulai dengan beberapa konsep dasar yang penting untuk dipahami.</p>
           <h2>Pengertian CSS</h2>
           <p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain tampilan halaman web. Dengan CSS, kita bisa mengatur layout, warna, dan font.</p>
