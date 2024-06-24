@@ -1,0 +1,57 @@
+.home-kontainer {
+    padding: 0;
+    width: 100%;        
+}   
+    
+.boxx-1 {
+    height: 600px;
+    background-color: #020617;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.content-satu {
+    text-align: left;
+    color: white;
+    width: 50%;
+    padding: 20px;
+}
+
+.content-satu p{
+    color: 
+    rgb(100, 116, 139);
+    font-size: 20px;
+}
+
+.content-satu h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.content-satu span {
+    color: rgb(13, 110, 253);
+    font-size: 48px;
+}
+
+.content-dua {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-dua img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.content-tiga{
+    text-align: center;
+    position: absolute;
+    margin-top: 60%    ;
+    width: 100%;
+}
